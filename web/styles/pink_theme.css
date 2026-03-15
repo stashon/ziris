@@ -1,0 +1,80 @@
+:root {
+  --purple-0:    #FFF0F7;
+  --purple-50:   #FFD6EC;
+  --purple-100:  #FFADD7;
+  --purple-150:  #FF85C2;
+  --purple-200:  #F760AD;
+  --purple-250:  #EC3E97;
+  --purple-300:  #DE2283;
+  --purple-400:  #C91073;
+  --purple-500:  #B00762;
+  --purple-600:  #930151;
+  --purple-650:  #7B0043;
+  --purple-700:  #640035;
+  --purple-800:  #4A0027;
+  --purple-900:  #320019;
+  --purple-950:  #1E000F;
+  --purple-1000: #0F0007;
+
+  --violet-0:    #FEF2F9;
+  --violet-50:   #FCDAEF;
+  --violet-100:  #F9BEE3;
+  --violet-150:  #F59ED4;
+  --violet-200:  #EF7AC2;
+  --violet-250:  #E755AE;
+  --violet-300:  #DC3399;
+  --violet-400:  #CC1885;
+  --violet-500:  #B80872;
+  --violet-600:  #9F005F;
+  --violet-650:  #87004F;
+  --violet-700:  #6E003F;
+  --violet-800:  #54002E;
+  --violet-900:  #39001E;
+  --violet-950:  #230011;
+  --violet-1000: #120007;
+
+  --color-background-sidebar:        #3D0F28;
+  --color-background-sidebar-hover:  rgba(255,255,255,0.07);
+  --color-background-sidebar-active: rgba(220,50,131,0.32);
+  --color-background-navbar:         #2D0A1E;
+  --color-sidebar-active-indicator:  var(--purple-200);
+  --color-background-unread-counter: var(--purple-300);
+  --color-text-unread-counter:       #ffffff;
+  --color-background-mention:        var(--purple-0);
+  --color-border-mention:            var(--purple-100);
+  --color-text-mention:              var(--purple-600);
+  --color-background-reaction:       var(--purple-0);
+  --color-background-reaction-active:var(--purple-50);
+  --color-border-reaction:           var(--purple-100);
+  --color-border-reaction-active:    var(--purple-300);
+  --color-text-reaction:             var(--purple-600);
+  --color-border-compose-focus:      var(--purple-300);
+  --color-shadow-compose-focus:      rgba(220,50,131,0.18);
+  --color-text-url:                  var(--purple-400);
+  --color-text-url-hover:            var(--purple-600);
+  --color-background-button-primary:       var(--purple-300);
+  --color-background-button-primary-hover: var(--purple-400);
+  --color-border-button-primary:           var(--purple-400);
+}
+
+.dark-theme {
+  --color-background-sidebar:        #1E0413;
+  --color-background-sidebar-active: rgba(220,50,131,0.25);
+  --color-background-navbar:         #150210;
+  --color-text-url:                  var(--purple-200);
+  --color-text-url-hover:            var(--purple-100);
+  --color-background-button-primary:       var(--purple-400);
+  --color-background-button-primary-hover: var(--purple-500);
+}
+
+.portico-page .btn-primary,
+.portico-page .portico-signup .btn-primary {
+  background-color: var(--purple-300) !important;
+  border-color: var(--purple-400) !important;
+}
+.portico-page .btn-primary:hover {
+  background-color: var(--purple-400) !important;
+}
+.portico-page a {
+  color: var(--purple-400) !important;
+}
